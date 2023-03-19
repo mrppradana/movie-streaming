@@ -354,9 +354,28 @@ body.dark .home .text{
     cursor: pointer;
 }
 /* modal movie */
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--text-color);
+    pointer-events: auto;
+    background-color: var(--body-color);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+}
 .modal-body {
     position: relative;
     flex: 1 1 auto;
     padding: var(--bs-modal-padding);
     display: flex;
+}
+.text-modal{
+    color: var(--text-color);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify
 }
