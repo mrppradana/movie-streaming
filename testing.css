@@ -344,6 +344,7 @@ body.dark .home .text{
     flex-direction: column;
     justify-content: center;
     transition: 0.2s;
+    text-align: center;
 } 
 .card:hover .card-body{
     right: 0;
