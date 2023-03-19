@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="testing.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Series</title>
+</head>
+<body>
+        <nav class="sidebar close">
+            <header>
+                <div class="image-text">
+                    <span class="image">
+                        <!--<img src="logo.png" alt="">-->
+                    </span>
+    
+                    <div class="text logo-text">
+                        <span class="name">Gundam Info</span>
+                        <span class="profession">Web Streaming</span>
+                    </div>
+                </div>
+    
+                <i class='bx bx-chevron-right toggle'></i>
+            </header>
+    
+            <div class="menu-bar">
+                <div class="menu">
+    
+                    <li class="search-box">
+                        <i class='bx bx-search icon'></i>
+                        <input type="text" placeholder="Search...">
+                    </li>
+    
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="page.html">
+                                <i class='bx bx-home-alt icon' ></i>
+                                <span class="text nav-text">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-bell icon'></i>
+                                <span class="text nav-text">Recomendation</span>
+                            </a>
+                        </li>
+    
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bx-heart icon' ></i>
+                                <span class="text nav-text">Contact Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="bottom-content">
+                    <li class="">
+                        <a href="page.html">
+                            <i class='bx bx-log-out icon' ></i>
+                            <span class="text nav-text">Logout</span>
+                        </a>
+                    </li>
+    
+                    <li class="mode">
+                        <div class="sun-moon">
+                            <i class='bx bx-moon icon moon'></i>
+                            <i class='bx bx-sun icon sun'></i>
+                        </div>
+                        <span class="mode-text text">Dark mode</span>
+    
+                        <div class="toggle-switch">
+                            <span class="switch"></span>
+                        </div>
+                    </li>
+                    
+                </div>
+            </div>
+    
+        </nav>
+    
+        <section class="home">
+            <div class="text">Series </div>
+            <!-- alert -->
+            <div class="alert alert-success" role="alert">
+                Checkout Our New Series!
+              </div>
+              <!-- carousel -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="https://bandai-a.akamaihd.net/corp/img/top_main/main/1000016685.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://bandai-a.akamaihd.net/corp/img/top_main/main/1000016667.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://bandai-a.akamaihd.net/corp/img/top_main/main/1000016683.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- breadcrumbs -->
+            <div class="breadcrumb-item" style="margin-left: 5%; margin-top: 10px;">
+              <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="page.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page" style="color: var(--text-color);">Series</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="text">New Series </div>
+            <!-- cards -->
+          <div class="row"
+            style="margin-top: 10px; margin-left: 5%; margin-right: 5%;">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="card" style="border: none;" data-bs-toggle="modal" data-bs-target="#product1">
+                <img src="https://assets.kompasiana.com/items/album/2023/01/15/mv5boddhyti4yzutyzjmni00nwq4lthlmjytmziyytezodbmogqyxkeyxkfqcgdeqxvymtm3ndc1otm2-v1-fmjpg-ux1000-63c3de3508a8b53df21d87c2.jpg?t=o&v=770" class="card-img" alt="Witch">
+                <div class="card-body">
+                  <h5 class="card-title">Witch From Mercury</h5>
+                  <p class="card-sub-title">New Series</p>
+                  <p class="card-info">An era when a multitude of corporations have entered space and built a huge economic system. After transferring to the Asticassia School of Technology from the planet Mercury, Suletta Mercury has experienced a school life filled with encounters and excitement, as both Miorine Rembran's bridegroom and a member of GUNDAM-ARM, Inc.</p>
+                  <button class="btn btn-primary" style="border-radius: 20px;">watch now!</button>
+                </div>
+              </div>
+            </div>
+          <!-- cards 2 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" style="border: none;" data-bs-toggle="modal" data-bs-target="#product1">
+              <img src="https://en.gundam.info/about-gundam/series-pages/series/builddivers_rerise/top/kv_en.jpg" class="card-img" alt="ReRise">
+              <div class="card-body">
+                <h5 class="card-title">Witch From Mercury</h5>
+                <p class="card-sub-title">New Series</p>
+                <p class="card-info">An era when a multitude of corporations have entered space and built a huge economic system. After transferring to the Asticassia School of Technology from the planet Mercury, Suletta Mercury has experienced a school life filled with encounters and excitement, as both Miorine Rembran's bridegroom and a member of GUNDAM-ARM, Inc.</p>
+                <button class="btn btn-primary" style="border-radius: 20px;">watch now!</button>
+              </div>
+            </div>
+          </div>
+          <!-- cards 3 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" style="border: none;" data-bs-toggle="modal" data-bs-target="#product1">
+              <img src="https://www.animenewsnetwork.com/images/encyc/A20601-1743304096.1517692310.jpg" class="card-img" alt="Diver">
+              <div class="card-body">
+                <h5 class="card-title">Witch From Mercury</h5>
+                <p class="card-sub-title">New Series</p>
+                <p class="card-info"> Middle-school students Riku Mikami and Yukio Hidaka recruit their classmate Momoka Yashiro and dive together into this vast world. Becoming "Divers," or inhabitants of GBN, they meet a mysterious girl named Sarah who has an amazing sensitivity to Gunpla.</p>
+                <button class="btn btn-primary" style="border-radius: 20px;">watch now!</button>
+              </div>
+            </div>
+          </div>
+          <!-- cards 4 -->
+          <div class="col-12 col-md-6 col-lg-3" style="margin-bottom: 10px;">
+            <div class="card" style="border: none;" data-bs-toggle="modal" data-bs-target="#product1">
+              <img src="https://assets.kompasiana.com/items/album/2023/01/15/mv5boddhyti4yzutyzjmni00nwq4lthlmjytmziyytezodbmogqyxkeyxkfqcgdeqxvymtm3ndc1otm2-v1-fmjpg-ux1000-63c3de3508a8b53df21d87c2.jpg?t=o&v=770" class="card-img" alt="Witch">
+              <div class="card-body">
+                <h5 class="card-title">Witch From Mercury</h5>
+                <p class="card-sub-title">New Series</p>
+                <p class="card-info">An era when a multitude of corporations have entered space and built a huge economic system. After transferring to the Asticassia School of Technology from the planet Mercury, Suletta Mercury has experienced a school life filled with encounters and excitement, as both Miorine Rembran's bridegroom and a member of GUNDAM-ARM, Inc.</p>
+                <button class="btn btn-primary" style="border-radius: 20px;">watch now!</button>
+              </div>
+            </div>
+          </div>
+          <!-- cards 5 -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card" style="border: none;" data-bs-toggle="modal" data-bs-target="#product1">
+              <img src="https://assets.kompasiana.com/items/album/2023/01/15/mv5boddhyti4yzutyzjmni00nwq4lthlmjytmziyytezodbmogqyxkeyxkfqcgdeqxvymtm3ndc1otm2-v1-fmjpg-ux1000-63c3de3508a8b53df21d87c2.jpg?t=o&v=770" class="card-img" alt="Witch">
+              <div class="card-body">
+                <h5 class="card-title">Witch From Mercury</h5>
+                <p class="card-sub-title">New Series</p>
+                <p class="card-info">An era when a multitude of corporations have entered space and built a huge economic system. After transferring to the Asticassia School of Technology from the planet Mercury, Suletta Mercury has experienced a school life filled with encounters and excitement, as both Miorine Rembran's bridegroom and a member of GUNDAM-ARM, Inc.</p>
+                <button class="btn btn-primary" style="border-radius: 20px;">watch now!</button>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+    
+        <script src="testing.js"></script>
+</body>
+</html>
