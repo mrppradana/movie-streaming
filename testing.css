@@ -9,13 +9,13 @@
 
 :root{
     /* ===== Colors ===== */
-    --body-color: #F6F1F1;
-    --sidebar-color: #19A7CE;
-    --primary-color: #146C94;
-    --primary-color-light: #19A7CE;
-    --toggle-color: #DDD;
-    --text-color: #000000;
-    
+ 
+    --body-color: #18191a;
+    --sidebar-color: #242526;
+    --primary-color: #3a3b3c;
+    --primary-color-light: #3a3b3c;
+    --toggle-color: #fff;
+    --text-color: #ccc;
 
     /* ====== Transition ====== */
     --tran-03: all 0.2s ease;
@@ -36,12 +36,12 @@ body{
 }
 
 body.dark{
-    --body-color: #18191a;
-    --sidebar-color: #242526;
-    --primary-color: #3a3b3c;
-    --primary-color-light: #3a3b3c;
-    --toggle-color: #fff;
-    --text-color: #ccc;
+    --body-color: #F6F1F1;
+    --sidebar-color: #19A7CE;
+    --primary-color: #146C94;
+    --primary-color-light: #19A7CE;
+    --toggle-color: #DDD;
+    --text-color: #000000;
 }
 
 /* ===== Sidebar ===== */
